@@ -6,7 +6,7 @@ using System.Windows.Input;
 
 namespace App.ViewModels
 {
-    class LoginViewModel:BaseViewModel
+    public class LoginViewModel:BaseViewModel
     {
         #region Variables
         string email;

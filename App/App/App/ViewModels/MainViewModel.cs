@@ -12,10 +12,12 @@ namespace App.ViewModels
         #region Properties
         public string Token { get; set; }
         public string TokenType { get; set; }
+        public List<Book> ListBook { get; set; }
         #endregion
 
         #region VievModels
         public LoginViewModel Login { get; set; }
+        public BookViewModel bookViewModel { get; set; }
         #endregion
 
         #region Constructors
@@ -23,6 +25,7 @@ namespace App.ViewModels
         {
             instance = this;
             this.Login = new LoginViewModel();
+            this.bookViewModel = new BookViewModel();
         }
         #endregion
 

@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Android", "App\App.Andr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.iOS", "App\App.iOS\App.iOS.csproj", "{8E51F494-334F-4CEE-A3CF-60C9E03B636C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App\App.csproj", "{68558B5C-53F4-4CEA-ADF6-BFDDD5F789FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App\App.csproj", "{68558B5C-53F4-4CEA-ADF6-BFDDD5F789FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiAddressSecurity", "apiAddressSecurity\apiAddressSecurity.csproj", "{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,18 @@ Global
 		{68558B5C-53F4-4CEA-ADF6-BFDDD5F789FF}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{68558B5C-53F4-4CEA-ADF6-BFDDD5F789FF}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{68558B5C-53F4-4CEA-ADF6-BFDDD5F789FF}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Release|iPhone.Build.0 = Release|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{216FFC71-D7EE-4145-BB05-8E7BA7DFD243}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

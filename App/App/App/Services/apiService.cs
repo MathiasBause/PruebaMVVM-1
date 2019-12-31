@@ -24,7 +24,7 @@
             }
 
 
-            bool isReachable = VerifyConnectionURL("https://apicontactsi220.azurewebsites.net/");
+            bool isReachable = VerifyConnectionURL("https://localhost:44309/");
             if (!isReachable)
             {
                 return new Response
